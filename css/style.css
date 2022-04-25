@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@400;700&family=Roboto:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto';
+}
+header{
+    width: 100%;
+    display: flex;
+    background-color: #F5F5F6;
+    justify-content: space-between;
+    padding-right: 102px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    margin: 17px 0 14px 64px;
+    font-size: 11px;
+    color: #C6C6C6;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+ul li{
+    cursor: pointer;
+}
+header img{
+    margin: 15px 0 12px 100px;
+}
+li:hover{
+  color: black;
+}
+.login{
+    width: 58px;
+    height: 33px;
+    margin: 9px 0 8px 112px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-family: 'Roboto';
+}
+.login:hover{
+  background-color: chartreuse;
+}
+.container{
+    margin-top: 56px;
+    margin-left: 253px;
+}
+h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 33px;
+}
+.converts{
+    display: flex;
+    gap: 123px;
+}
+h3{
+    line-height: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #9F9F9F;
+    margin-bottom: 11px;
+}
+.left, .rigth{
+    width: 259px;
+}
+.buttons{
+    display: flex;
+    gap: 0;
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 20px;
+}
+.buttons button{
+    width: 65px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: #833AE0;
+    color: white;
+}
+.buttons button:first-child{
+    border-radius: 5px 0 0 5px;
+}
+.buttons button:last-child{
+    border-radius: 0 5px 5px 0;
+    border-right: 0;
+}
+.buttons .normal{
+    background-color: white;
+    border-right: 1px solid #E5E5E5;
+    color: #C6C6C6;
+}
+.buttons .active{
+    background-color: #833AE0;
+    border-right: 1px solid #E5E5E5;
+    color: #ffffff;
+}
+.inputdiv{
+    width: 100%;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+}
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+   -moz-appearance: none;
+        appearance: none;
+}
+.answer{
+    overflow: hidden;
+}
+input, .answer{
+    width: 100%;
+    outline: none;
+    height: 38px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 14px;
+    font-size: 36px;
+    margin-top: 11px;
+}
+.info{
+    margin-left: 16px;
+    margin-bottom: 5px;
+    color: #C6C6C6;
+}
