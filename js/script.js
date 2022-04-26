@@ -5,7 +5,7 @@ const info2=document.querySelector('.rigth .info')
 const input=document.querySelector('input')
 const answer=document.querySelector('.answer')
  
-let pul1='RUB'
+let pul1='AZN'
 let pul2='USD'
  
 input.addEventListener('change', (e)=>{
